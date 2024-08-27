@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1"
+    tools:context=".index">
+
+    <TextView
+        android:id="@+id/topicTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_dog_care"
+        android:textSize="60sp"
+        android:fontFamily="@font/bangers"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/topicTextView"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="210dp"
+        android:text="CAREGIVER"
+        android:backgroundTint="#FFEB3B"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/button1"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="29dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="PET OWNER" />
+
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<!-- res/layout/activity_view_profile.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_2"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Full Name: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:text="Email: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewContactNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:text="Contact Number: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewResidentialAddress"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Residential Address: "
+        android:textSize="16sp" />
+
+</LinearLayout>

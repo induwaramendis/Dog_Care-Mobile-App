@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">pet_care</string>
+    <string name="dog_care">Dog Care</string>
+    <string name="dogs_needs_app">Dogs needs app</string>
+    <string name="welcome_to_dog_care">WELCOME TO Dog CARE!</string>
+    <string name="hello">hello</string>
+    <string name="menda">menda</string>
+    <string name="foods">Foods</string>
+    <string name="nutrition">Nutrition</string>
+    <string name="equipment">Equipment</string>
+    <string name="dog_education">Dog Education</string>
+    <string name="popular">Popular</string>
+    <string name="education">Education</string>
+    <string name="foodshead">Foods</string>
+    <string name="food_6">Food 6</string>
+    <string name="food_7">food 7</string>
+    <string name="food_1">Food 1</string>
+    <string name="food_2">Food 2</string>
+    <string name="food_5">Food 5</string>
+    <string name="food_4">Food 4</string>
+    <string name="nutritionhed">Nutrition</string>
+    <string name="equipmenthd">Equipment</string>
+    <string name="educationhd">Education</string>
+</resources>
